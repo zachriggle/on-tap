@@ -1,0 +1,7 @@
+<script type="text/x-handlebars" data-template-name="application">{{outlet nav}}<div id="app-main" class="container">{{outlet}}</div></script><script type="text/x-handlebars" data-template-name="taps"><div class="row-fluid">{{outlet}}</div><center class="row-fluid">{{#each tap in controller}}
+{{#linkTo tap tap}}<span class="imgBox"><p class='imgText' {{bindAttr style="tap.style"}}>{{tap.name}}</p></span>{{/linkTo}}
+{{/each}}</center></script><script type="text/x-handlebars" data-template-name="taps/index"><span>asdf</span></script><script type="text/x-handlebars" data-template-name="taps/tap"><span>asdf</span></script><script type="text/x-handlebars" data-template-name="tap"><div class="row-fluid"> <h1>{{name}}<small>{{description}}</small></h1><p>{{details}}</p></div></script><script type="text/x-handlebars" data-template-name="nav"><div class="navbar navbar-fixed-top"><div class="navbar-inner"><div class="container"><button type="button" data-toggle="collapse" data-target=".nav-collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="brand"> <object data="pubwhiz.svg" type="image/svg+xml"></object>&nbsp; Whats On Tap</a><div class="nav-collapse collapse"><ul class="nav">{{#each tap in controller}}
+  {{#linkTo "tap" tap tagName="li"}}
+    <a {{bindAttr href="view.href"}}>{{tap.name}}</a>
+  {{/linkTo}}
+{{/each}}</ul></div></div></div></div></script>

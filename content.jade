@@ -1,0 +1,41 @@
+script(type='text/x-handlebars', data-template-name="application")
+  {{outlet nav}}
+  #app-main.container
+    {{outlet}}
+script(type='text/x-handlebars', data-template-name="taps")
+  .row-fluid {{outlet}}
+  center.row-fluid
+    | {{#each tap in controller}}
+    | {{#linkTo tap tap}}
+    span.imgBox
+      | <p class='imgText' {{bindAttr style="tap.style"}}>{{tap.name}}</p>
+    | {{/linkTo}}
+    | {{/each}}
+script(type='text/x-handlebars', data-template-name="taps/index")
+  span asdf
+script(type='text/x-handlebars', data-template-name="taps/tap")
+  span asdf
+script(type='text/x-handlebars', data-template-name="tap")
+  .row-fluid 
+    h1 {{name}}
+      small {{description}}
+    p {{details}}
+
+script(type='text/x-handlebars', data-template-name="nav")
+  .navbar.navbar-fixed-top
+    .navbar-inner
+      .container
+        button.btn.btn-navbar(type='button', data-toggle='collapse', data-target='.nav-collapse')
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.brand(href='#') 
+          object(data="pubwhiz.svg", type="image/svg+xml")
+          | &nbsp; Whats On Tap
+        .nav-collapse.collapse
+          ul.nav
+            | {{#each tap in controller}}
+            |   {{#linkTo "tap" tap tagName="li"}}
+            |     <a {{bindAttr href="view.href"}}>{{tap.name}}</a>
+            |   {{/linkTo}}
+            | {{/each}}
