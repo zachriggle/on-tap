@@ -37,7 +37,6 @@ App.ApplicationRoute = Ember.Route.extend({
 
 App.TapsRoute = Ember.Route.extend({
     model: function(params) {
-      console.log('hello')
         return App.Tap.find(params.tap_id);
     }
 });
