@@ -4,7 +4,7 @@ script(type='text/x-handlebars', data-template-name="application")
     {{outlet}}
 script(type='text/x-handlebars', data-template-name="taps")
   .row-fluid {{outlet}}
-  center.row-fluid.tap-container
+  center.row-fluid
     | {{#each tap in controller}}
     | {{#linkTo tap tap}}
     span.imgBox
