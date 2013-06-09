@@ -64,7 +64,7 @@ body {
 .imgBox  { 
   width:72px; 
   height:367px; 
-  background-image:url('/perlick.png'); 
+  background-image:url('perlick.png'); 
   display: inline-block;
   margin: 20px;
   /*background-repeat: no-repeat;*/
