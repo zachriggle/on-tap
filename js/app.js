@@ -73,19 +73,19 @@ App.Tap.FIXTURES = [{
   kicked: 1,
   style: 'color: #FF69B4',
 },{
-  id: 2,
+  id: 4,
   name: 'Hopdunk',
   description: ' (10.8%)',
   details: 'Aggressively hopped American Double IPA.  Features over a pound of hops and five different varieties.',
   style: 'color: #71637D',
 },{
-  id: 3,
+  id: 2,
   name: 'Cropshock',
   description: ' (7%)',
   details: 'Session Rye Pale Ale.  Three pounds of Rye malt made this a pain in the ass to mash, but it was worth it!',
   style: 'color: #fff',
 },{
-  id: 4,
+  id: 3,
   name: 'Hoptimum',
   description: ' (10.4%)',
   details: '(Sierra Nevada) Hoptimum is a hurricane of whole-cone hop flavor. Hopped, dry hopped and torpedoed for incredible hop flavor and complexity, Hoptimum is the pinnacle of whole-cone hoppiness and the biggest Imperial IPA we have ever produced',
