@@ -86,9 +86,9 @@ App.Tap.FIXTURES = [{
   style: 'color: #fff',
 },{
   id: 3,
-  name: 'Hoptimum',
-  description: ' (10.4%)',
-  details: '(Sierra Nevada) Hoptimum is a hurricane of whole-cone hop flavor. Hopped, dry hopped and torpedoed for incredible hop flavor and complexity, Hoptimum is the pinnacle of whole-cone hoppiness and the biggest Imperial IPA we have ever produced',
+  name: 'Organic Cider',
+  description: ' (6%)',
+  details: 'Made from the best organic, unfiltered apple juice available; sweetened with honey',
   kicked: 1,
   style: 'color: #FF4500'
 }]
