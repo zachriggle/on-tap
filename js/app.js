@@ -73,12 +73,6 @@ App.Tap.FIXTURES = [{
   kicked: 1,
   style: 'color: #FF69B4',
 },{
-  id: 4,
-  name: 'Hopdunk',
-  description: ' (10.8%)',
-  details: 'Aggressively hopped American Double IPA.  Features over a pound of hops and five different varieties.',
-  style: 'color: #71637D',
-},{
   id: 2,
   name: 'Cropshock',
   description: ' (7%)',
@@ -91,6 +85,12 @@ App.Tap.FIXTURES = [{
   details: 'Made from the best organic, unfiltered apple juice available; sweetened with honey',
   kicked: 1,
   style: 'color: #FF4500'
+},{
+  id: 4,
+  name: 'Hopdunk',
+  description: ' (10.8%)',
+  details: 'Aggressively hopped American Double IPA.  Features over a pound of hops and five different varieties.',
+  style: 'color: #71637D',
 }]
 
 Handlebars.registerHelper('icon', function(context, options){
