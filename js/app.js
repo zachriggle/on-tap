@@ -67,9 +67,9 @@ App.Tap = DS.Model.extend({
 // pink purple white orange
 App.Tap.FIXTURES = [{
   id: 1,
-  name: 'Kicked!',
-  description: '',
-  details: 'This keg is empty.',
+  name: 'Kirkland Cider',
+  description: ' (6%)',
+  details: 'Made from the cheapest, filtered juice that Costco carries; sweeted with Kirkland honey',
   kicked: 1,
   style: 'color: #FF69B4',
 },{
