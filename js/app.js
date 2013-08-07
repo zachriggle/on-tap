@@ -74,9 +74,9 @@ App.Tap.FIXTURES = [{
   style: 'color: #FF69B4',
 },{
   id: 2,
-  name: 'Cropshock',
-  description: ' (7%)',
-  details: 'Session Rye Pale Ale.  Three pounds of Rye malt made this a pain in the ass to mash, but it was worth it!',
+  name: 'Dragon\'s Milk',
+  description: ' (10%)',
+  details: '(New Holland) A stout with roasty malt character intermingled with deep vanilla tones, all dancing in an oak bath',
   style: 'color: #fff',
 },{
   id: 3,
@@ -87,9 +87,9 @@ App.Tap.FIXTURES = [{
   style: 'color: #FF4500'
 },{
   id: 4,
-  name: 'Hopdunk',
+  name: 'Huma Lupa Licious',
   description: ' (10.8%)',
-  details: 'Aggressively hopped American Double IPA.  Features over a pound of hops and five different varieties.',
+  details: '(Short\'s) AggressivelyNamed after the hop flower Humulus Lupulus, this India Pale Ale style beer has enormous amounts of hop bitterness, flavor and aroma.',
   style: 'color: #71637D',
 }]
 
