@@ -67,9 +67,9 @@ App.Tap = DS.Model.extend({
 // pink purple white orange
 App.Tap.FIXTURES = [{
   id: 1,
-  name: 'Kirkland Cider',
-  description: ' (6%)',
-  details: 'Made from the cheapest, filtered juice that Costco carries; sweeted with Kirkland honey',
+  name: 'Founder\'s KBS',
+  description: ' (9.95%)',
+  details: '(Homebrew) Made to the exact same specifications as the real deal as the world-reknowned stout.  Brewed with belgian bittersweet chocolate, roasted cacao nibs, and coffee, with even more coffee added post-fermentation.  Aged one week on oak chips.',
   kicked: 1,
   style: 'color: #FF69B4',
 },{
@@ -80,15 +80,15 @@ App.Tap.FIXTURES = [{
   style: 'color: #fff',
 },{
   id: 3,
-  name: 'Organic Cider',
+  name: 'Homebrew Cider',
   description: ' (6%)',
-  details: 'Made from the best organic, unfiltered apple juice available; sweetened with honey',
+  details: '(Homebrew) Made with part Costco apple juice, part unfiltered organic apple juice; sweetened with honey',
   kicked: 1,
   style: 'color: #FF4500'
 },{
   id: 4,
   name: 'Huma Lupa Licious',
-  description: ' (10.8%)',
+  description: ' (6.9%)',
   details: '(Short\'s) AggressivelyNamed after the hop flower Humulus Lupulus, this India Pale Ale style beer has enormous amounts of hop bitterness, flavor and aroma.',
   style: 'color: #71637D',
 }]
