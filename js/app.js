@@ -69,7 +69,7 @@ App.Tap.FIXTURES = [{
   id: 1,
   name: 'KBS',
   description: ' (9.95%)',
-  details: '(Homebrew) Made to the exact same specifications as the real deal as the world-reknowned stout by Founder\'s.  Brewed with belgian bittersweet chocolate, roasted cacao nibs, and coffee, with even more coffee added post-fermentation.  Aged one week on oak chips.',
+  details: '(Homebrew) Made to the exact same specifications as the real deal as the world-reknowned stout by Founder\'s. Brewed with belgian bittersweet chocolate, roasted cacao nibs, and coffee.  Added Kentucky bourbon post-fermentation; aged one week on oak chips.',
   kicked: 1,
   style: 'color: #FF69B4', 
 },{
