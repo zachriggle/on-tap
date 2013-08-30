@@ -77,14 +77,14 @@ App.Tap.FIXTURES = [{
   name: 'Dragon\'s Milk',
   description: ' (10%)',
   details: '(New Holland) A stout with roasty malt character intermingled with deep vanilla tones, all dancing in an oak bath',
-  style: 'color: #fff',
+  style: 'color: #FF4500'
 },{
   id: 3,
   name: 'Cider',
   description: ' (6%)',
   details: '(Homebrew) Made with part Costco apple juice, part unfiltered organic apple juice; sweetened with honey',
   kicked: 1,
-  style: 'color: #FF4500'
+  style: 'color: #fff', // white
 },{
   id: 4,
   name: 'Huma Lupa Licious',
