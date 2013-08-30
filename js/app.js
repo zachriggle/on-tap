@@ -67,7 +67,7 @@ App.Tap = DS.Model.extend({
 // pink purple white orange
 App.Tap.FIXTURES = [{
   id: 1,
-  name: 'Kentucky Breakfast Stout',
+  name: 'KBS',
   description: ' (9.95%)',
   details: '(Homebrew) Made to the exact same specifications as the real deal as the world-reknowned stout by Founder\'s.  Brewed with belgian bittersweet chocolate, roasted cacao nibs, and coffee, with even more coffee added post-fermentation.  Aged one week on oak chips.',
   kicked: 1,
