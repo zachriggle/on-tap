@@ -68,7 +68,7 @@ App.Tap = DS.Model.extend({
 App.Tap.FIXTURES = [{
   id: 1,
   name: 'KBS',
-  description: ' (9.95%)',
+  description: ' (10%)',
   details: '(Homebrew) Made to the exact same specifications as the real deal as the world-reknowned stout by Founder\'s. Brewed with belgian bittersweet chocolate, roasted cacao nibs, and coffee.  Added Kentucky bourbon post-fermentation; aged one week on oak chips.',
   kicked: 1,
   style: 'color: #FF69B4', 
@@ -88,7 +88,7 @@ App.Tap.FIXTURES = [{
 },{
   id: 4,
   name: 'Huma Lupa Licious',
-  description: ' (6.9%)',
+  description: ' (7%)',
   details: '(Short\'s) AggressivelyNamed after the hop flower Humulus Lupulus, this India Pale Ale style beer has enormous amounts of hop bitterness, flavor and aroma.',
   style: 'color: #FF4500', // orange
 }]
