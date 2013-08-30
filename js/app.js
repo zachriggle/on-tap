@@ -67,9 +67,9 @@ App.Tap = DS.Model.extend({
 // pink purple white orange
 App.Tap.FIXTURES = [{
   id: 1,
-  name: 'Founder\'s KBS',
+  name: 'Kentucky Breakfast Stout',
   description: ' (9.95%)',
-  details: '(Homebrew) Made to the exact same specifications as the real deal as the world-reknowned stout.  Brewed with belgian bittersweet chocolate, roasted cacao nibs, and coffee, with even more coffee added post-fermentation.  Aged one week on oak chips.',
+  details: '(Homebrew) Made to the exact same specifications as the real deal as the world-reknowned stout by Founder\'s.  Brewed with belgian bittersweet chocolate, roasted cacao nibs, and coffee, with even more coffee added post-fermentation.  Aged one week on oak chips.',
   kicked: 1,
   style: 'color: #FF69B4',
 },{
@@ -80,7 +80,7 @@ App.Tap.FIXTURES = [{
   style: 'color: #fff',
 },{
   id: 3,
-  name: 'Homebrew Cider',
+  name: 'Cider',
   description: ' (6%)',
   details: '(Homebrew) Made with part Costco apple juice, part unfiltered organic apple juice; sweetened with honey',
   kicked: 1,
