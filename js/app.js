@@ -71,7 +71,7 @@ App.Tap.FIXTURES = [{
   description: ' (9.95%)',
   details: '(Homebrew) Made to the exact same specifications as the real deal as the world-reknowned stout by Founder\'s.  Brewed with belgian bittersweet chocolate, roasted cacao nibs, and coffee, with even more coffee added post-fermentation.  Aged one week on oak chips.',
   kicked: 1,
-  style: 'color: #FF4500',
+  style: 'color: #FF69B4', 
 },{
   id: 2,
   name: 'Dragon\'s Milk',
@@ -90,7 +90,7 @@ App.Tap.FIXTURES = [{
   name: 'Huma Lupa Licious',
   description: ' (6.9%)',
   details: '(Short\'s) AggressivelyNamed after the hop flower Humulus Lupulus, this India Pale Ale style beer has enormous amounts of hop bitterness, flavor and aroma.',
-  style: 'color: #FF69B4', // orange
+  style: 'color: #FF4500', // orange
 }]
 
 Handlebars.registerHelper('icon', function(context, options){
