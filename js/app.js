@@ -89,7 +89,7 @@ App.Tap.FIXTURES = [{
   id: 4,
   name: 'Huma Lupa Licious',
   description: ' (7%)',
-  details: '(Short\'s) AggressivelyNamed after the hop flower Humulus Lupulus, this India Pale Ale style beer has enormous amounts of hop bitterness, flavor and aroma.',
+  details: '(Short\'s) Named after the hop flower Humulus Lupulus, this India Pale Ale style beer has enormous amounts of hop bitterness, flavor and aroma.',
   style: 'color: #FF4500; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;', // orange
 }]
   
