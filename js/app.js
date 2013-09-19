@@ -80,9 +80,9 @@ App.Tap.FIXTURES = [{
   style: 'color: #71637D',
 },{
   id: 3,
-  name: 'Cider',
-  description: ' (6%)',
-  details: '(Homebrew) Made with part Costco apple juice, part unfiltered organic apple juice; sweetened with honey',
+  name: 'Pumpkin',
+  description: ' (5%)',
+  details: '(Homebrew) Three pounds of pie pumpkin, and generous spices make this a yummy fall treat!',
   kicked: 1,
   style: 'color: #fff', // white
 },{
