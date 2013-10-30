@@ -74,9 +74,9 @@ App.Tap.FIXTURES = [{
   style: 'color: #FF69B4; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;', 
 },{
   id: 2,
-  name: 'Dragon\'s Milk',
-  description: ' (10%)',
-  details: '(New Holland) A stout with roasty malt character intermingled with deep vanilla tones, all dancing in an oak bath',
+  name: 'Cider',
+  description: ' (5%)',
+  details: '(Homebrew) Fresh cider from the side of the road outside Ren Fest.  Added some yeast, et. voila!  Mildly sweet.',
   style: 'color: #71637D; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;',
 },{
   id: 3,
@@ -87,9 +87,9 @@ App.Tap.FIXTURES = [{
   style: 'color: #fff; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;', // white
 },{
   id: 4,
-  name: 'Huma Lupa Licious',
-  description: ' (7%)',
-  details: '(Short\'s) Named after the hop flower Humulus Lupulus, this India Pale Ale style beer has enormous amounts of hop bitterness, flavor and aroma.',
+  name: 'KICKED',
+  description: '',
+  details: 'Empty',
   style: 'color: #FF4500; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;', // orange
 }]
   
