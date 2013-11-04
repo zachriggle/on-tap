@@ -80,16 +80,16 @@ App.Tap.FIXTURES = [{
   style: 'color: #71637D; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;',
 },{
   id: 3,
-  name: 'Pumpkin',
-  description: ' (5%)',
-  details: '(Homebrew) Three pounds of pie pumpkin, and generous spices make this a yummy fall treat!',
+  name: 'KICKED',
+  description: '',
+  details: 'Empty!',
   kicked: 1,
   style: 'color: #fff; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;', // white
 },{
   id: 4,
   name: 'KICKED',
   description: '',
-  details: 'Empty',
+  details: 'Empty!',
   style: 'color: #FF4500; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;', // orange
 }]
   
