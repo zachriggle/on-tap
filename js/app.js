@@ -67,9 +67,9 @@ App.Tap = DS.Model.extend({
 // pink purple white orange
 App.Tap.FIXTURES = [{
   id: 1,
-  name: 'KBS',
-  description: ' (10%)',
-  details: '(Homebrew) Made to the exact same specifications as the real deal as the world-reknowned stout by Founder\'s. Brewed with belgian bittersweet chocolate, roasted cacao nibs, and coffee.  Added Kentucky bourbon post-fermentation; aged one week on oak chips.',
+  name: 'Kicked!',
+  description: ' ',
+  details: 'Empty!',
   kicked: 1,
   style: 'color: #FF69B4; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;', 
 },{
