@@ -80,16 +80,16 @@ App.Tap.FIXTURES = [{
   style: 'color: #71637D; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;',
 },{
   id: 3,
-  name: 'KICKED',
-  description: '',
-  details: 'Empty!',
+  name: 'Dubbel W',
+  description: ' (6.5%)',
+  details: '(Homebrew) Abbey-style belgian dubbel, fermented with Westmalle yeast (WLP530).',
   kicked: 1,
   style: 'color: #fff; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;', // white
 },{
   id: 4,
-  name: 'KICKED',
-  description: '',
-  details: 'Empty!',
+  name: 'Dubbel C',
+  description: ' (6.5%)',
+  details: '(Homebrew) Abbey-style belgian dubbel, fermented with Chimay yeast (WLP500).',
   style: 'color: #FF4500; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;', // orange
 }]
   
