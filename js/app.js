@@ -67,7 +67,7 @@ App.Tap = DS.Model.extend({
 // pink purple white orange
 App.Tap.FIXTURES = [{
   id: 1,
-  name: 'Kicked!',
+  name: ' ',
   description: ' ',
   details: 'Empty!',
   kicked: 1,
