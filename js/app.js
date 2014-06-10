@@ -67,29 +67,29 @@ App.Tap = DS.Model.extend({
 // pink purple white orange
 App.Tap.FIXTURES = [{
   id: 1,
-  name: 'Empty',
-  description: ' ',
-  details: 'Empty!',
+  name: 'Centennial IPA',
+  description: ' (5%)',
+  details: 'Single-hopped IPA with Centennial',
   kicked: 1,
   style: 'color: #FF69B4; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;', 
 },{
   id: 2,
-  name: 'Cider',
-  description: ' (5%)',
-  details: '(Homebrew) Fresh cider from the side of the road outside Ren Fest.  Added some yeast, et. voila!  Mildly sweet.',
+  name: 'Quad #1',
+  description: ' (10%)',
+  details: 'Belgian quadruppel ale.  Sweet and boozy.  Uses Westmalle yeast.',
   style: 'color: #71637D; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;',
 },{
   id: 3,
-  name: 'Dubbel W',
-  description: ' (6.5%)',
-  details: '(Homebrew) Abbey-style belgian dubbel, fermented with Westmalle yeast (WLP530).',
+  name: 'Mosaic IPA',
+  description: ' (5%)',
+  details: 'Single-hopped IPA with Mosaic',
   kicked: 1,
   style: 'color: #fff; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;', // white
 },{
   id: 4,
-  name: 'Dubbel C',
+  name: 'Quad #2',
   description: ' (6.5%)',
-  details: '(Homebrew) Abbey-style belgian dubbel, fermented with Chimay yeast (WLP500).',
+  details: 'Belgian quadruppel ale.  Sweet and boozy.  Uses Chimay yeast.',
   style: 'color: #FF4500; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;', // orange
 }]
   
