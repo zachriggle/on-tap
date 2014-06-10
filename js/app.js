@@ -88,7 +88,7 @@ App.Tap.FIXTURES = [{
 },{
   id: 4,
   name: 'Quad #2',
-  description: ' (6.5%)',
+  description: ' (10%)',
   details: 'Belgian quadruppel ale.  Sweet and boozy.  Uses Chimay yeast.',
   style: 'color: #FF4500; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;', // orange
 }]
